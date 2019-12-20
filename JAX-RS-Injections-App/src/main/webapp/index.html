@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Register Here</h2>
+
+	<form action="api/user/addUser" method="POST">
+
+		<table>
+			<tr>
+				<td>UserName:</td>
+				<td><input type="text" name="uname" /></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" name="pwd" /></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="text" name="email" /></td>
+			</tr>
+			<tr>
+				<td><input type="reset" value="Reset" /></td>
+				<td><input type="submit" value="Register" /></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>
