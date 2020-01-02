@@ -1,6 +1,0 @@
-<html>
-<a href input type=text value="Welcome to Git Hub">
-hello 
-how are u?
-this is only sample purpose program
-<html>
